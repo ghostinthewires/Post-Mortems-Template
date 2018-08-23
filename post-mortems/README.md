@@ -22,7 +22,7 @@ We need to embrace failure for postmortems to work. This includes having blamele
 
 We raise an `issue` against this [repo](https://github.com/ghostinthewires/Post-Mortems-Template/issues) with a brief title and a description explaining the issue. It is also required to use the appropriate labels.
 
-Once the investigation into the `issue` has been completed you use this [Postmortem Template](https://github.com/ghostinthewires/Post-Mortems-Template/issues/tree/master/post-mortems/postmortemtemplate.md) to update the description of the `issue`.
+Once the investigation into the `issue` has been completed you use this [Postmortem Template](https://github.com/ghostinthewires/Post-Mortems-Template/blob/master/post-mortems/postmortemtemplate.md) to update the description of the `issue`.
 
 The Postmortem template was created for two reasons: First, I wanted to share our postmortems as part of our standard documentation, so that anyone can easily find them. Second, all of our work is based on Gitlab and we’re used to writing and reviewing Markdown files. In other words, my goal was to reduce barriers to reading, writing, and publishing our postmortems.
 
@@ -30,7 +30,7 @@ Publishing more postmortems ultimately means being more transparent about failur
 
 ## Your first Postmortem
 
-Now I encourage you to use the [Postmortem Template](https://github.com/ghostinthewires/Post-Mortems-Template/issues/tree/master/post-mortems/postmortemtemplate.md) as a foundation for your next — or perhaps first — postmortem. Give it a read. If there wasn’t an incident in last few days (I hope so!), think of the last time you had to deal with an outage. Then go through the different sections and try to fill in the blanks. Be consistent. Use the [active voice](https://plainlanguage.gov/resources/articles/dash-writing-tips/) throughout the document.
+Now I encourage you to use the [Postmortem Template](https://github.com/ghostinthewires/Post-Mortems-Template/blob/master/post-mortems/postmortemtemplate.md) as a foundation for your next — or perhaps first — postmortem. Give it a read. If there wasn’t an incident in last few days (I hope so!), think of the last time you had to deal with an outage. Then go through the different sections and try to fill in the blanks. Be consistent. Use the [active voice](https://plainlanguage.gov/resources/articles/dash-writing-tips/) throughout the document.
 
 Postmortems are a collaborative effort thriving on feedback. Make sure to share first drafts internally with our team (Comments can be made on the [issues](https://github.com/ghostinthewires/Post-Mortems-Template/issues) page)
 
@@ -52,7 +52,7 @@ In complex systems, such as web systems, there is no root cause. Single point fa
 
 One reason we tend to look for a single, simple cause of an outcome is because the failure is too complex to keep it in our head. Thus we oversimplify without really understanding the failure’s nature and then blame particular, local forces or events for outcomes.
 
-One of the things I like about the [Postmortem Template](https://github.com/ghostinthewires/Post-Mortems-Template/issues/tree/master/post-mortems/postmortemtemplate.md) is that it says “Root Causes”, not “Root Cause”. For me, that’s a testament to the fact that you need to look deeper if you only have a single root cause.
+One of the things I like about the [Postmortem Template](https://github.com/ghostinthewires/Post-Mortems-Template/blob/master/post-mortems/postmortemtemplate.md) is that it says “Root Causes”, not “Root Cause”. For me, that’s a testament to the fact that you need to look deeper if you only have a single root cause.
 
 ## Human error is never a root cause
 
